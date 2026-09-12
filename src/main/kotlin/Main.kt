@@ -1,7 +1,10 @@
 fun main() {
-    val b = Ball()
-    b.move()
+    println("Enter Name:")
+    val name = readln()
 
-    val d = Dog()
-    d.move()
+    println("Hello $name!")
+
+    println("Enter Age:")
+    val age = readln().toInt()
+    println("Hello $age!")
 }
